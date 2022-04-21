@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: 'Montserrat', sans-serif;}
+
 
 .container-fluid {
     padding: 3% 7%;
 }
 
+/* Nav Bar  */
+.logo {
+    width: 50%;
+}
 /* Title Section  */
 #title-section {
     background-color: #22577E;
@@ -28,32 +31,126 @@ button {
 .big-heading {
     color: white;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+.title-pic {
+    position: relative;
 }
 
 .title-image {
     transform: rotate(25deg);
-    padding: 8%;
-    position: relative;
+    padding: 2%;
+    position: absolute;
 }
 
-/* Features  */
+/* About Us Section  */
 
 #about-us-section {
-    background-color: #5584AC;
+    background-color: #F0F2F4;
+    position: relative;
     text-align: center;
 }
 
-.about-us-image{
-    width: 70%;
-    border: solid;
-    border-color: white;
-    border-width: 3%;
+#about-us-section button {
+    background-color: #95D1CC !important;
 }
 
-.about-us-h3 {
+.about-us-heading {
     font-size: 2rem;
-    color: white;
-    font-weight: 400;
+    color: black;
+    font-weight: 700;
+    line-height: 2;
+    font-style: italic;
+
+}
+
+.about-use-p{
+    padding: 0% 15%;
+    color: #505965;
+    text-align: left;
+}
+
+.get-started-button {
+    width: 50%;
+}
+
+.span-1{
+    color: #D2086C ;
+}
+
+.span-2{
+    color: #6944B6;
+}
+
+/* Features Section  */
+#features-section{
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.features-pic{
+    width: 80%;
+
+}
+
+.features-h3 {
+    padding: 3%;
+    font-size: 1.5rem ;
+    font-weight:600;
+}
+
+.features-p {
+    color: #505965 ;
+}
+
+/* Testimonials Section  */
+#testimonials-section {
+    background-color: #95D1CC;
+    text-align: center;
     
+}
+
+#testimonials-section em {
+    color: white;
+    font-size: 1rem;
+}
+
+.testimonial-text{
+    color: white;
+    font-size: 2.5rem;
+    margin:  0 3%;
+    padding: 4%;
+
+
+}
+
+.testimonials-image{
+    border-radius: 100%;
+    width: 15%;
+    margin: 3%;
+
+}
+
+/* Top Stand-In Section  */
+#top-stand-in-section {
+    background-color: white;
+    text-align: center;
+}
+
+#top-stand-in-section h3 {
+    margin-top: 3%;
+}
+
+
+.stand-in-header{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.stand-in-section-image{
+    border-radius: 100%;
+    width: 80%;
 }
