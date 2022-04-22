@@ -139,10 +139,10 @@ button {
     text-align: center;
 }
 
-#top-stand-in-section h3 {
+.top-stand-ins-names{
+    font-weight: 500;
     margin-top: 3%;
 }
-
 
 .stand-in-header{
     font-size: 3rem;
@@ -152,5 +152,43 @@ button {
 
 .stand-in-section-image{
     border-radius: 100%;
-    width: 80%;
+    width: 50%;
+}
+
+/* Contact Us Section  */
+#contact-us-section {
+    background-color:#22577E;
+    text-align: center;
+}
+
+.contact-us-h2{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1%;
+    margin-bottom: 0;
+}
+
+.social-media-icons{
+    margin:  0 3%;
+    color:#5584AC;
+    
+    
+}
+
+.social-media-icons:hover{
+    color: aquamarine;
+}
+
+
+@media (max-width:1028px) {
+
+    #title-section{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    
 }
